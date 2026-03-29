@@ -15,6 +15,9 @@
 .p_padrão{
     color:var(--branco);
 }
+strong{
+    color: var(--vermelho);
+}
 
 /*cabeçalho*/
 header{
@@ -45,6 +48,7 @@ header{
 /* --- APP --- */
 
 #container-app{
+    padding-top:10px;
     display: flex;
     align-items: center;
 }
@@ -69,35 +73,41 @@ header{
     width:85vw;
     margin: auto;
     font-size:1.2em;
+    text-indent:40px;
+    text-align: justify;
 }
 
-#dowload-p{
+#dowload-button{
     background-color: var(--azul);
+    border:0px solid ;
     color:var(--branco);
-    margin: auto;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
     width:85vw;
-    margin-top: 10px ;
+    margin-top: 20px ;
     margin-bottom: 10px ;
     border-radius:5px;
-    text-align: center;
-    height:30px;
+    height:50px;
+    font-size: 1.2em ;
 }
 
 #container-dowload{
     display: flex;
     justify-content:space-evenly;
-    padding-bottom:20px;
+    padding-bottom:40px;
 }
 .button-download{
     border:2px solid var(--azul);
     border-radius: 10px;
     box-shadow:1px 1px 3px black;
-    width:90px;
+    width:120px;
 }
 
+
 #container-dowload > div > img {
-    width:60px;
-    height:50px;
+    width:45px;
+    height:35px;
     border-radius:10px;
     position: relative;
     transform: translate(-50%,-50%);
@@ -108,15 +118,17 @@ header{
 
 /*informativo App*/
 
-#carrosel{
-    background-color:black;
-    width:100vw;
-    height:60vh;
+#cabeça-chamado-download{
+    background-color:var(--azul);
+    height:30px;
 }
-#carrosel > h1{
-    text-align: center;
-    color: var(--branco);
-    padding-top:50%;
+#carrosel{
+    width: 100vw;
+    height:60vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image:url("./imagemConst/baner.jpeg");
 }
 
 /*chamada*/
