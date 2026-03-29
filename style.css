@@ -1,0 +1,242 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+:root{
+       --azul:#12377f;
+       --vermelho: #e9110f;
+       --branco:#ffffff;
+}
+
+.h_padrão{
+    color:var(--branco);
+}
+.p_padrão{
+    color:var(--branco);
+}
+
+/*cabeçalho*/
+header{
+    background-color: var(--azul);
+    height:60px;
+}
+#container-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height:60px;
+    padding-left:20px;
+    padding-right:20px;
+}
+#logo{
+    width:130px;
+    height:40px;
+    border-radius:3px;
+}
+#menu{
+    background-color: var(--branco);
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+
+
+/* --- APP --- */
+
+#container-app{
+    display: flex;
+    align-items: center;
+}
+#app{
+    width:100px;
+    height:100px;
+    margin:20px;
+    border-radius:10px;
+}
+#container-app-H1{
+    display: flex;
+    flex-direction: column;
+}
+#container-app-H1 > h2 {
+    color:green;
+    font-size:1em;
+    padding-bottom:5px;
+}
+
+
+#conteudo-app{
+    width:85vw;
+    margin: auto;
+    font-size:1.2em;
+}
+
+#dowload-p{
+    background-color: var(--azul);
+    color:var(--branco);
+    margin: auto;
+    width:85vw;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+    border-radius:5px;
+    text-align: center;
+    height:30px;
+}
+
+#container-dowload{
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom:20px;
+}
+.button-download{
+    border:2px solid var(--azul);
+    border-radius: 10px;
+    box-shadow:1px 1px 3px black;
+    width:90px;
+}
+
+#container-dowload > div > img {
+    width:60px;
+    height:50px;
+    border-radius:10px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+}
+
+
+/*informativo App*/
+
+#carrosel{
+    background-color:black;
+    width:100vw;
+    height:60vh;
+}
+#carrosel > h1{
+    text-align: center;
+    color: var(--branco);
+    padding-top:50%;
+}
+
+/*chamada*/
+#chamado-download{
+    background-color: var(--azul);
+}
+#chamado-download > p {
+    color:var(--branco);
+    width:85vw;
+    font-size:1.2em;
+    text-align: center;
+    margin: auto;
+    margin-bottom:10px;
+    padding-top:20px;
+}
+#chamado-download > button {
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    background-color: green;
+    border: 0px solid;
+    width:50vw;
+    margin-bottom:20px;
+    color:var(--branco);
+    height:30px;
+    border-radius:5px;
+}
+
+/* --- Empresa ---- */
+#Moda{
+    padding-bottom:25px;
+}
+#Moda > h1{
+    text-align: center;
+    font-size:1.8em;
+    padding-top:20px;
+    margin-bottom:5px;
+}
+#Moda > h2{
+    text-align: left;
+    font-size: 1em;
+    width:85vw;
+    margin:auto;
+    margin-bottom: 15px;
+}
+.estilos{
+    margin: auto;
+    padding: 10px;
+    width: 85vw;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom:5px;
+    border-radius:5px;
+}
+
+
+/*frase_efeito*/
+#frase_efeito{
+    background-color: var(--azul);
+    margin: auto;
+} 
+#frase_efeito > h2{
+    width:85vw;
+    text-align: center;
+    margin: auto;
+    padding-top:20px;
+    margin-bottom:10px;
+}
+#frase_efeito > p{
+    width:85vw;
+    text-align: center;
+    margin: auto;
+    padding-bottom:20px;
+}
+
+
+#Casa{
+    margin-bottom:30px;
+}
+#Casa > h1 {
+    text-align: center;
+    font-size:1.8em;
+    padding-top:30px;
+    margin-bottom:5px;
+    margin-bottom:20px
+}
+#Casa-itens{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#ender{
+  display: none;
+}
+
+/*endereço*/
+#endereco{
+    background-color:var(--azul);
+}
+#endereco > h2{
+    font-size:1.2em;
+    width:85vw;
+    text-align:center;
+    padding-top:20px;
+    margin: auto;
+    margin-bottom:10px;
+}
+#endereco > p{
+    width:85vw;
+    text-align: center;
+    padding-bottom:20px;
+    margin: auto;
+}
+
+
+
+/*Roda pé*/
+footer{
+    background-color: black;
+}
+footer > a {
+    color: white;
+}
