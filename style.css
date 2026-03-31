@@ -1,12 +1,14 @@
 *{
     margin:0px;
     padding:0px;
+    font-family: "Tilt Neon", sans-serif;
 }
 
 :root{
        --azul:#12377f;
        --vermelho: #e9110f;
        --branco:#ffffff;
+       --verde:#228c22;
 }
 
 .h_padrão{
@@ -63,7 +65,7 @@ header{
     flex-direction: column;
 }
 #container-app-H1 > h2 {
-    color:green;
+    color:var(--verde);
     font-size:1em;
     padding-bottom:5px;
 }
@@ -78,7 +80,7 @@ header{
 }
 
 #dowload-button{
-    background-color: var(--azul);
+    background-color: var(--verde);
     border:0px solid ;
     color:var(--branco);
     position: relative;
@@ -128,15 +130,15 @@ header{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center top;
-    background-image:url("./imagemConst/baner.jpeg");
+    background-image:url("./imagemConst/baner01.png");
 }
 
 /*chamada*/
 #chamado-download{
-    background-color: var(--azul);
+    background-color: var();
 }
 #chamado-download > p {
-    color:var(--branco);
+    color:var();
     width:85vw;
     font-size:1.2em;
     text-align: center;
