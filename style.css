@@ -24,7 +24,7 @@ strong{
 /*cabeçalho*/
 header{
     background-color: var(--azul);
-    height:60px;
+    height:12vh;
 }
 #container-header{
     display: flex;
@@ -49,14 +49,27 @@ header{
 
 /* --- APP --- */
 
+#APP{
+    background-image:url(./imagemConst/Cinza.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:top top;
+    height:88vh;
+
+}
 #container-app{
-    padding-top:10px;
+    position: relative;
+    top:38%;
     display: flex;
     align-items: center;
+    background-color: #ffffffea;
+    width: 85vw;
+    border-radius:10px;
+    margin: auto;
 }
 #app{
-    width:100px;
-    height:100px;
+    width:70px;
+    height:70px;
     margin:20px;
     border-radius:10px;
 }
@@ -92,6 +105,8 @@ header{
     border-radius:5px;
     height:50px;
     font-size: 1.2em ;
+    position: relative;
+    top:38%;
 }
 
 #container-dowload{
