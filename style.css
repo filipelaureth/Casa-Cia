@@ -139,14 +139,27 @@ header{
     background-color:var(--azul);
     height:30px;
 }
+
+
+
+
+/*crrosel*/
 #carrosel{
     width: 100vw;
     height:60vh;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-image:url("./imagemConst/baner01.png");
 }
+.slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider > img {
+    display: block;
+    max-width:100%;
+}
+
+
+
 
 /*chamada*/
 #chamado-download{
@@ -160,6 +173,7 @@ header{
     margin: auto;
     margin-bottom:10px;
     padding-top:20px;
+    padding-bottom:20px;
 }
 #chamado-download > button {
     position: relative;
@@ -174,9 +188,22 @@ header{
     border-radius:5px;
 }
 
+
+/*frase de efeito*/
+#frase_efeito{
+    text-align: center;
+    padding-top:20px;
+    width: 85vw;
+    margin: auto;
+    margin-bottom:20px;
+}
+
+
+
 /* --- Empresa ---- */
 #Moda{
     padding-bottom:25px;
+    background-color: var(--azul);
 }
 #Moda > h1{
     text-align: center;
@@ -200,28 +227,14 @@ header{
     margin-bottom:5px;
     border-radius:5px;
 }
-
-
-/*frase_efeito*/
-#frase_efeito{
-    background-color: var(--azul);
-    margin: auto;
-} 
-#frase_efeito > h2{
+ 
+.imagem-roupa {
     width:85vw;
-    text-align: center;
-    margin: auto;
-    padding-top:20px;
-    margin-bottom:10px;
-}
-#frase_efeito > p{
-    width:85vw;
-    text-align: center;
-    margin: auto;
-    padding-bottom:20px;
 }
 
 
+
+/*camae mesa*/
 #Casa{
     margin-bottom:30px;
 }
