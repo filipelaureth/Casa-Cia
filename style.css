@@ -147,6 +147,7 @@ header{
 #carrosel{
     width: 100vw;
     height:60vh;
+    overflow: hidden;
 }
 .slider{
     display: flex;
@@ -218,19 +219,56 @@ header{
     margin:auto;
     margin-bottom: 15px;
 }
-.estilos{
+
+
+
+
+
+.container-passador{
+    position: relative;
     margin: auto;
-    padding: 10px;
+}
+.passador{
+    display: flex;
+    overflow:hidden;
+    transform: translate();
+    margin: auto;
+    width:85vw;
+}
+.estilos{ 
+    position: relative;
+    transform: translate(-50%);
+    left:50%;
+    background-color: #ffffff;
     width: 85vw;
     border: 1px solid black;
     margin-top: 5px;
     margin-bottom:5px;
-    border-radius:5px;
+    border-radius:20px;
 }
- 
 .imagem-roupa {
     width:85vw;
+    border-radius:20px 20px 0px 0px;
+    overflow: hidden;
 }
+.botao_passador{
+    position: absolute;
+    top: 50%;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+.esquerda{
+    left: 10px;
+    transform: translate(50%,-50%);
+
+}
+.direita{
+    right:10px;
+    transform: translate(-50%,-50%);
+}
+
+
 
 
 
