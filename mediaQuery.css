@@ -1,18 +1,43 @@
 @media screen and (min-width:1000px){
 
-/*  ---- Midias ----  */
-    
-    #APP{
-        background-image:url(./imagemConst/CinzaHoriz.png);
+    /*cabeçalho*/
+    #container-menu{
+        width:75vw;
+    }
+    #container-menu > img{
+        width:200px;
+        height:60px;
+    }
+    #container-navegador{
+        display:block;
+        display: flex;
+        gap:30px;
+    }
+    #container-navegador > a {
+        text-decoration: none;
+    }
+    #container-navegador > a >p{
+        color:var(--branco);
+        text-decoration: none;
+        font-size:1em;
+    }
+    #menu-compactado{
+        display:none;
     }
 
-    #container-app{
-        width:400px;
-        left:15%;
+    /*baner*/
+    #APP{
+    background-image: url(./imagens/Imagemhorizontal.jpg);
+    width:100vw;
+    height:85vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top center;
     }
-    
-    #dowload-button{
-        width:400px;
-        left: 65%;
-    }
+    #container-externo-app{
+    background-color: #e9110f;
+    width:75vw;
+    margin: auto;
+}
+
 }

@@ -1,0 +1,322 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+:root{
+       --azul:#12377f;
+       --vermelho: #e9110f;
+       --branco:#ffffff;
+       --verde:#228c22;
+}
+
+.h_padrão{
+    color:var(--branco);
+}
+.p_padrão{
+    color:var(--branco);
+}
+strong{
+    color: var(--vermelho);
+}
+
+/*cabeçalho*/
+header{
+    background-color: var(--azul);
+    height:12vh;
+}
+#container-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height:60px;
+    padding-left:20px;
+    padding-right:20px;
+}
+#logo{
+    width:130px;
+    height:40px;
+    border-radius:3px;
+}
+#menu{
+    background-color: var(--branco);
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+
+
+/* --- APP --- */
+
+#APP{
+    background-image:url(./imagemConst/Cinza.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:top top;
+    height:88vh;
+
+}
+#container-app{
+    position: relative;
+    top:38%;
+    display: flex;
+    align-items: center;
+    background-color: #ffffffea;
+    width: 85vw;
+    border-radius:10px;
+    margin: auto;
+}
+#app{
+    width:70px;
+    height:70px;
+    margin:20px;
+    border-radius:10px;
+}
+#container-app-H1{
+    display: flex;
+    flex-direction: column;
+}
+#container-app-H1 > h2 {
+    color:var(--verde);
+    font-size:1em;
+    padding-bottom:5px;
+}
+
+
+#conteudo-app{
+    width:85vw;
+    margin: auto;
+    font-size:1.2em;
+    text-indent:40px;
+    text-align: justify;
+}
+
+#dowload-button{
+    background-color: var(--verde);
+    border:0px solid ;
+    color:var(--branco);
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    width:85vw;
+    margin-top: 20px ;
+    margin-bottom: 10px ;
+    border-radius:5px;
+    height:50px;
+    font-size: 1.2em ;
+    position: relative;
+    top:38%;
+}
+
+#container-dowload{
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom:40px;
+}
+.button-download{
+    border:2px solid var(--azul);
+    border-radius: 10px;
+    box-shadow:1px 1px 3px black;
+    width:120px;
+}
+
+
+#container-dowload > div > img {
+    width:45px;
+    height:35px;
+    border-radius:10px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+}
+
+
+/*informativo App*/
+
+#cabeça-chamado-download{
+    background-color:var(--azul);
+    height:30px;
+}
+
+
+
+
+/*crrosel*/
+#carrosel{
+    width: 100vw;
+    height:60vh;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider > img {
+    display: block;
+    max-width:100%;
+}
+
+
+
+
+/*chamada*/
+#chamado-download{
+    background-color: var();
+}
+#chamado-download > p {
+    color:var();
+    width:85vw;
+    font-size:1.2em;
+    text-align: center;
+    margin: auto;
+    margin-bottom:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#chamado-download > button {
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    background-color: green;
+    border: 0px solid;
+    width:50vw;
+    margin-bottom:20px;
+    color:var(--branco);
+    height:30px;
+    border-radius:5px;
+}
+
+
+/*frase de efeito*/
+#frase_efeito{
+    text-align: center;
+    padding-top:20px;
+    width: 85vw;
+    margin: auto;
+    margin-bottom:20px;
+}
+
+
+
+/* --- Empresa ---- */
+#Moda{
+    padding-bottom:25px;
+    background-color: var(--azul);
+}
+#Moda > h1{
+    text-align: center;
+    font-size:1.8em;
+    padding-top:20px;
+    margin-bottom:5px;
+}
+#Moda > h2{
+    text-align: left;
+    font-size: 1em;
+    width:85vw;
+    margin:auto;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.container-passador{
+    position: relative;
+    margin: auto;
+}
+.passador{
+    display: flex;
+    overflow:hidden;
+    transform: translate();
+    margin: auto;
+    width:85vw;
+}
+.estilos{ 
+    position: relative;
+    transform: translate(-50%);
+    left:50%;
+    background-color: #ffffff;
+    width: 85vw;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom:5px;
+    border-radius:20px;
+}
+.imagem-roupa {
+    width:85vw;
+    border-radius:20px 20px 0px 0px;
+    overflow: hidden;
+}
+.botao_passador{
+    position: absolute;
+    top: 50%;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+.esquerda{
+    left: 10px;
+    transform: translate(50%,-50%);
+
+}
+.direita{
+    right:10px;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+/*camae mesa*/
+#Casa{
+    margin-bottom:30px;
+}
+#Casa > h1 {
+    text-align: center;
+    font-size:1.8em;
+    padding-top:30px;
+    margin-bottom:5px;
+    margin-bottom:20px
+}
+#Casa-itens{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#ender{
+  display: none;
+}
+
+/*endereço*/
+#endereco{
+    background-color:var(--azul);
+}
+#endereco > h2{
+    font-size:1.2em;
+    width:85vw;
+    text-align:center;
+    padding-top:20px;
+    margin: auto;
+    margin-bottom:10px;
+}
+#endereco > p{
+    width:85vw;
+    text-align: center;
+    padding-bottom:20px;
+    margin: auto;
+}
+
+
+
+/*Roda pé*/
+footer{
+    background-color: black;
+}
+footer > a {
+    color: white;
+}

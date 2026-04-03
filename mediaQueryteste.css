@@ -1,0 +1,18 @@
+@media screen and (min-width:1400px){
+
+/*  ---- Midias ----  */
+    
+    #APP{
+        background-image:url(./imagemConst/CinzaHoriz.png);
+    }
+
+    #container-app{
+        width:400px;
+        left:15%;
+    }
+    
+    #dowload-button{
+        width:400px;
+        left: 65%;
+    }
+}
