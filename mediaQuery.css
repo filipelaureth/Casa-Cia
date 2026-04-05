@@ -2,7 +2,7 @@
 
     /*cabeçalho*/
     #container-menu{
-        width:75vw;
+        width:60vw;
     }
     #container-menu > img{
         width:200px;
@@ -27,17 +27,275 @@
 
     /*baner*/
     #APP{
-    background-image: url(./imagens/Imagemhorizontal.jpg);
-    width:100vw;
-    height:85vh;
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: top center;
+        background-image: url(./imagens/Imagemhorizontal.jpg);
+        width:100vw;
+        height:85vh;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: top center;
     }
     #container-externo-app{
-    background-color: #e9110f;
-    width:75vw;
-    margin: auto;
-}
+        width:75vw;
+        margin: auto;
+    }
+    #container-interno-app{
+        display: flex;
+        align-items: center;
+    }
+    #container-interno-app > img{
+        width:510px;
+        height:350px;
+        position: relative;
+        transform: translate(0%);
+        left:0%;
+        top:50%;
+        margin-left:0vw;
+    }
+
+    #container-conteudo-app{
+        width:35vw;
+    }
+
+    /*titulo App*/
+    #conteudo-app-titulo{
+        gap:2vw;
+        justify-content:left;
+        margin-left:20px;
+        margin-top:30px;
+        margin-bottom:20px;
+    }
+    #conteudo-app-titulo > img{
+        width:140px;
+        height:140px;
+    }
+    #conteudo-app-string > h1 {
+        font-size:2.8em;
+        margin-bottom:10px;
+    }
+    #conteudo-app-string > p{
+        font-size:1.2em;
+        margin-bottom:5px;
+    }
+
+    /*quadros*/
+    #conteudo-app-quadros{
+        grid-template-columns:16Vw 15Vw;
+        grid-template-rows:65px 65px;
+        margin-bottom:20px;
+    }
+    .quadros{
+        width:15Vw;
+        height:50px;
+    }
+    #conteudo-app-quadros > div > p{
+        text-align: center;
+        line-height:50px;
+    }
+
+    /*botão*/
+    #botão-download{
+        width:35vw;
+        height:45px;
+        margin-top:15px;
+        border-radius:10px;
+    }
+    #botão-download > p{
+        color: var(--branco);
+        text-align: center;
+        line-height: 45px;
+        font-size:1.1em;
+    }
+    #container-interno-app > a{
+        text-decoration: none;
+    }
+
+
+    /* <--- Frase de Efeito 01 ---> */
+
+    #frase_efeito_01{
+        font-size:2em;
+        text-align: center;
+        width:55vw;
+        margin: auto;
+        padding-top:70px;
+        padding-bottom:70px;
+    }
+
+
+    /* <--- carrosel ---> */
+    #carrosel{
+        width:40vw;
+        height:40vw;
+        overflow: hidden;
+        border-radius:15px;
+        border: 1px solid #ffffff;
+    }
+    .slider{
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slider > img {
+        display: block;
+        max-width:100%;
+    }
+
+    #container-carrosel{
+    display: flex;
+    justify-content: center;
+    background-color: var(--azul);
+    padding-top:50px;
+    padding-bottom:50px;
+    }
+
+    /*texto*/
+    #texto-CASA_CIA_baner{
+        display: block;
+        width:25vw ;
+        height: 39.6vw;
+        background-color: var(--azul);
+        border-radius:15px;
+        margin-left:20px;
+        border: 3px solid #ffffff;
+    }
+    #texto-CASA_CIA_baner > h2{
+        color: var(--branco);
+        font-size:2em;
+        padding-top:40px;
+        margin-left:30px;
+        padding-bottom: 20px;
+    }
+    #texto-CASA_CIA_baner > p{
+        color: var(--branco);
+        font-size:1.8em;
+        width: 20vw;
+        font-size:1.5em;
+        padding-left:30px;
+    }
+
+    /* <--- Frase de Efeito 02 ---> */
+
+    #frase_efeito_02{
+        font-size:2em;
+        text-align: center;
+        width:80vw;
+        margin: auto;
+        padding-top:60px;
+        padding-bottom:60px;
+    }
+
+    
+    /* <--- empresa ---> */
+    #container-moda-container{
+        display: flex;
+        justify-content: center;
+        gap: 20px
+    }
+
+
+    #container-moda > h2 {
+        color: #ffffff;
+        padding-top:20px;
+        text-align: center;
+        margin-bottom:10px;
+        font-size:2.5em;
+        padding-top:30px;
+    }
+    #container-moda > p {
+        color: #ffffff;
+        width:85vw;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 15px;
+        font-size:1.3em;
+        padding-bottom:30px;
+    }
+
+
+
+    .container-passador{
+        position: relative;
+        margin: auto;
+        padding-bottom:20px;
+    }
+    .passador{
+        display: flex;
+        overflow:hidden;
+        transform: translate();
+        margin: auto;
+        width:19vw;
+    }
+    .estilos{ 
+        position: relative;
+        transform: translate(-50%);
+        left:50%;
+        background-color: #ffffff;
+        width: 19vw;
+        border: 1px solid black;
+        margin-top: 5px;
+        margin-bottom:5px;
+    }
+
+    .imagem-roupa {
+        width:19vw;
+        overflow: hidden;
+    }
+
+
+    .botao_passador{
+        position: absolute;
+        top: 50%;
+        width:30px;
+        height:30px;
+        border-radius:50%;
+    }
+    .esquerda{
+        left: 2px;
+        transform: translate(50%,-50%);
+
+    }
+    .direita{
+        right:2px;
+        transform: translate(-50%,-50%);
+    }
+
+
+    .estilos > h3{
+        padding-top:5px;
+        margin-left:10px;
+        color: var(--azul);
+    }
+
+    .estilos > p{
+        width:18vw;
+        margin-left:10px;
+        padding-bottom:10px;
+    }
+
+
+    #texto-CASA_CIA_Roupa{
+        display: block;
+        color: var(--branco);
+        font-size:1.8em;
+        width: 40vw;
+        height:89vh;
+        font-size:1.5em;
+        padding-left:30px;
+        border: 2px solid #ffffff;
+        border-radius:15px;
+    }
+    #texto-CASA_CIA_Roupa > h2{
+        color: var(--branco);
+        font-size:1.5em;
+        padding-top:40px;
+        margin-left:30px;
+        padding-bottom: 20px;
+    }
+    #texto-CASA_CIA_Roupa > p{
+        color: var(--branco);
+        font-size:1.2em;
+        width: 30vw;
+        padding-left:30px;
+    }
 
 }
