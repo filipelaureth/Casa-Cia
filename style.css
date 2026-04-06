@@ -21,7 +21,7 @@
 header{
     background-color: var(--azul);
     width:100vw;
-    height:15vh;
+    height:10vh;
     z-index:0;
 }
 #container-menu{
@@ -39,6 +39,8 @@ header{
     width:150px;
     height:50px;
     border-radius:5px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 
@@ -126,12 +128,12 @@ header{
     position: relative;
     justify-content: center;
     gap:3vw;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:3vh;
+    padding-bottom:2vh;
 }
 #conteudo-app-titulo > img{
-    width:100px;
-    height:100px;
+    width:120px;
+    height:120px;
     border-radius:5px;
 }
 #conteudo-app-string {
@@ -139,7 +141,7 @@ header{
     flex-direction: column;
 }
 #conteudo-app-string > h1 {
-    font-size:1.6em;
+    font-size:2.2em;
     margin-bottom:5px;
 }
 #conteudo-app-string > strong > p{
@@ -151,7 +153,7 @@ header{
     grid-template-columns:42Vw 40Vw;
     grid-template-rows:37px 37px;
     margin: auto;
-    padding-bottom:10px;
+    padding-bottom:3vh;
 }
 #conteudo-app-quadros > div > p{
     text-align: center;
@@ -189,9 +191,9 @@ header{
 /* <--- Frase de Efeito 01 ---> */
 
 #frase_efeito_01{
-    font-size:1.2em;
+    font-size:1.4em;
     text-align: center;
-    width:80vw;
+    width:70vw;
     margin: auto;
     padding-top:20px;
     padding-bottom:20px;
@@ -200,7 +202,6 @@ header{
 /* <--- carrosel ---> */
 #carrosel{
     width: 100vw;
-    height:60vh;
     overflow: hidden;;
 }
 .slider{
@@ -219,13 +220,12 @@ header{
 /* <--- Frase de Efeito 02 ---> */
 
 #frase_efeito_02{
-    font-size:1.2em;
+    font-size:1.4em;
     text-align: center;
-    width:80vw;
+    width:70vw;
     margin: auto;
     padding-top:20px;
     padding-bottom:20px;
-
 }
 
 

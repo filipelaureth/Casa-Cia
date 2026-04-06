@@ -64,7 +64,7 @@
         gap:2vw;
         justify-content:left;
         margin-left:20px;
-        margin-top:30px;
+        margin-top:20px;
         margin-bottom:20px;
     }
     #conteudo-app-titulo > img{
@@ -195,6 +195,7 @@
     #container-moda-container{
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: 20px
     }
 
@@ -287,11 +288,12 @@
         color: var(--branco);
         font-size:1.8em;
         width: 40vw;
-        height:545px;
+        height:540px;
         font-size:1.5em;
         padding-left:30px;
         border: 2px solid #ffffff;
         border-radius:15px;
+        margin-bottom:12px;    
     }
     #texto-CASA_CIA_Roupa > h2{
         color: var(--azul);
