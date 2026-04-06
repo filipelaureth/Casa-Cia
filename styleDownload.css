@@ -4,9 +4,9 @@
 
 body{
     background-image:url(./imagens/dowload.png);
-    background-position:top center;
+    background-position:center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 
 
