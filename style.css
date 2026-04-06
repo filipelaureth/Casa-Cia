@@ -115,10 +115,9 @@ header{
     font-size:1.6em;
     margin-bottom:5px;
 }
-#conteudo-app-string > p{
+#conteudo-app-string > strong > p{
     margin-bottom:5px;
 }
-
 /*quadros*/
 #conteudo-app-quadros{
     display:grid;
@@ -131,11 +130,12 @@ header{
     text-align: center;
     line-height:30px;
     font-size:0.9em;
+    color: var(--azul);
 }
 .quadros{
     width:40Vw;
     height:30px;
-    border: 1px solid black;
+    border: 1px solid var(--azul);
     border-radius:5px;
 }
 
@@ -204,7 +204,7 @@ header{
 
 /* <--- empresa ---> */
 
-
+/*Vestuarios*/
 #container-moda{
     background-color: var(--azul);
 }
@@ -247,11 +247,13 @@ header{
     border: 1px solid black;
     margin-top: 5px;
     margin-bottom:5px;
+    border-radius:10px;
 }
 
 .imagem-roupa {
     width:85vw;
     overflow: hidden;
+    border-radius:10px 10px 0px 0px;
 }
 
 
@@ -288,3 +290,86 @@ header{
     display: none;
 }
 
+
+/*casa*/
+
+#Casa{
+    margin: auto;
+}
+#Casa > h1{
+    margin: auto;
+    width:85vw;
+    font-size:1.7em;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.container-icon-casa{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.icon-casa{
+    width: 50px ;
+    height:50px ;
+    margin-right:10px;
+}
+.container-icon-casa > p{
+    font-size:1.1em;
+}
+#Casa-itens{
+    margin-bottom:20px;
+}
+
+
+/* <--- contatos ---> */
+footer{
+    background-color:black;
+    width:100vw;
+    text-align: center;
+}
+footer > h2{
+    color: var(--branco);
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#localização {
+    padding-bottom: 20px;
+}
+
+#localização > p{
+    color: var(--branco);
+}
+#dias-funcionamento{
+    padding-bottom: 20px;
+}
+#dias-funcionamento > p{
+    color: var(--branco);
+}
+#telefone{
+    padding-bottom: 20px;
+}
+#telefone > p{
+    color: var(--branco);
+}
+
+#imagens-footer{
+    margin-left:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:10x;
+}
+#facebook{
+    width:47px;
+    height:47px;
+    margin-right:10px;
+}
+#instagram{
+    width:79px;
+    height:79px;
+}
+#whatsapp{
+    width:70px;
+    height:70px;
+}

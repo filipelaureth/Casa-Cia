@@ -91,6 +91,9 @@
         text-align: center;
         line-height:50px;
     }
+    #conteudo-app-string > strong > p{
+        font-size:1.3em;
+    }
 
     /*botão*/
     #botão-download{
@@ -259,7 +262,7 @@
         transform: translate(-50%,-50%);
     }
 
-
+    /*casa*/
     .estilos > h3{
         padding-top:5px;
         margin-left:10px;
@@ -278,7 +281,7 @@
         color: var(--branco);
         font-size:1.8em;
         width: 40vw;
-        height:89vh;
+        height:545px;
         font-size:1.5em;
         padding-left:30px;
         border: 2px solid #ffffff;
@@ -298,4 +301,49 @@
         padding-left:30px;
     }
 
-}
+    /*casa*/
+    #Casa > h1{
+        margin: auto;
+        width:85vw;
+        font-size:2.2em;
+        text-align: center;
+        padding-top:40px;
+        padding-bottom:20px;
+    }
+
+    .container-icon-casa{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding-bottom:10px;
+    }
+    .icon-casa{
+        width: 70px ;
+        height: 70px ;
+        
+    }
+    .container-icon-casa > p{
+        font-size:2em;
+    }
+    #Casa-itens{
+        margin-bottom:40px;
+    }
+
+    /*contato*/
+    footer > h2{
+        font-size:2.3em;
+    }
+    #facebook{
+    width:43px;
+    height:43px;
+    margin-right:10px;
+    }
+    #instagram{
+        width:79px;
+        height:79px;
+    }
+    #whatsapp{
+        width:70px;
+        height:70px;
+    }
+    }
