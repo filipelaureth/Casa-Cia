@@ -69,3 +69,12 @@ const atualizarPassador = () => {
             console.log("erro");
     };
 };
+
+function ClickMenu() {
+   const menu = document.querySelector("#container-navegador-mob")
+   if(menu.style.display == "block"){
+        menu.style.display = "none"
+   }else{
+        menu.style.display = "block"
+   }
+}

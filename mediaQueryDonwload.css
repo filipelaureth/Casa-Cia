@@ -1,0 +1,44 @@
+@media screen and (min-width:1000px){
+
+    body{
+    width:100vw;
+    height:100vh;
+    background-image:url(./imagens/Imagemhorizontal.jpg);
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    #conatiner-download{
+    background-color: #ffffffe0;
+    width:45vw;
+    margin: auto;
+    border-radius:10px;
+    padding-bottom:30px;
+    }
+    #conatiner-download-botao{
+    width:36vw;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    }
+    .download{
+    display: flex;
+    width:35vw;
+    border:1px solid #12377f;
+    margin-bottom:10px;
+    padding: 3px;
+    border-radius:10px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    }
+    a > div{
+    display: block;
+    background-color: #228c22;
+    margin: auto;
+    width:30vw;
+    height:45px;
+    margin-top:15px;
+    border-radius:10px;
+    }
+}

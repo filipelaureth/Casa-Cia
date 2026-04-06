@@ -22,6 +22,7 @@ header{
     background-color: var(--azul);
     width:100vw;
     height:15vh;
+    z-index:0;
 }
 #container-menu{
     display: flex;
@@ -32,15 +33,41 @@ header{
     position: relative;
     transform: translate(0%,-50%);
     top: 50%;
+    z-index:1;
 }
 #container-menu > img{
     width:150px;
     height:50px;
     border-radius:5px;
 }
+
+
 #container-navegador{
     display:none;
 }
+
+#container-navegador-mob{
+    display:none;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    z-index:3;
+}
+#container-navegador-mob > a > p{
+    width:40vw;
+    height:8vh;
+    color: #ffffff;
+    border:1px solid #ffffff;
+    background-color: var(--azul);
+    line-height:8vh;
+    text-align: right;
+    padding-right:10px;
+}
+#container-navegador-mob> a {
+    text-decoration:none;
+}
+
+
 #menu-compactado{
     color: var(--branco);
     display: block;
@@ -155,8 +182,8 @@ header{
     line-height: 45px;
     font-size:1.1em;
 }
-#container-interno-app > a{
-    text-decoration: none;
+#container-conteudo-horizontal > a{
+    text-decoration:none;
 }
 
 /* <--- Frase de Efeito 01 ---> */
